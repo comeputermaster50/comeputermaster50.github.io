@@ -1,0 +1,13 @@
+html
+br
+p
+div
+a
+details
+img
+li
+strong
+mark
+q
+
+Bootstrap I added cards to different homepages that directs you to it's page, for javascript I did an interactivity quiz.

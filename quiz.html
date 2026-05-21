@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        Quiz page
+    </head>
+    <br>
+    <a href="index.html">back to homepage</a>
+    <br>
+    <br>
+    <br>
+        <div>
+            <h2>1.</h2>
+            <hr>
+            <p>Which Dinosaur is not apart of the Dromaeosauridae family</p>
+            <button class="incorrect">Velociraptor</button>
+            <button id="correct">Spinosaurus</button>
+            <button class="incorrect">Dromaeosaurus</button>
+            <p class="feedback"></p>
+            <script>
+                document.querySelector("#correct").onclick = function() {
+                    document.querySelector(".feedback").innerText = "correct!";
+                }
+            </script>
+
+        </div>
+</html>
